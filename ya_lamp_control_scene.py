@@ -10,8 +10,8 @@ from flask import Flask, request, render_template_string
 import logging
 from typing import Tuple, Optional
 
-OAUTH_TOKEN = os.getenv("YANDEX_OAUTH_TOKEN", "ваш_токен")
-DEVICE_ID = os.getenv("YANDEX_DEVICE_ID", "айдишник_лампочки")
+OAUTH_TOKEN = os.getenv("YANDEX_OAUTH_TOKEN", "y0__xCS-M2fARjroDog4PP_sRSsRJCvXfjCKS0EN301aaR2orZJ9A")
+DEVICE_ID = os.getenv("YANDEX_DEVICE_ID", "a6f3a3bb-1938-499f-becd-edeed170e05f")
 API_URL = "https://api.iot.yandex.net/v1.0/devices/actions"
 
 HEADERS = {
